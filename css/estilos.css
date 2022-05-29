@@ -1,0 +1,257 @@
+@media (max-width: 799px) {
+    * {
+        padding: 0px;
+        margin: 0px auto;
+    }
+    body {
+        background-color: aliceblue;
+    }
+    header {
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+    }
+    #logo {
+        display: flex;
+        background-color: black;
+        color: white;
+        width: 96%;
+        padding: 2%;
+    }
+    #logo1 {
+        display: flex;
+    }
+    #logo2 {
+        display: none;
+    }
+    #menu {
+        background-color: black;
+        color: white;
+        width: 100%;
+    }
+    #idMenu {
+        color: white;
+    }
+    .noVisible {
+        display: none;
+    }
+    .siVisible {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   .noVisible {
+        display: none;
+    }
+    .siVisible {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    ul {
+        width: 98%;
+    }
+    ul li {
+        list-style: none;
+        margin: 10px;
+    }
+    hr {
+        width: 98%;
+        margin: 2px;
+    }
+    main {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    article {
+        order: 1;
+        width: 100%;
+        background-color: rgb(10, 97, 131);
+        display: flex;
+        flex-direction: column;
+    }
+    #Recuadro {
+        margin: 15px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        border: solid 1px white;
+        background-color: rgb(5, 52, 71);
+    }
+    #Foto {
+        border: solid 1px white;
+        background-color: rgb(13, 129, 175);
+        width: 100%;
+        height: auto;
+    }
+    .img {
+        width: 250px;
+    }
+    #Contenido {
+        background-color: black;
+        display: block;
+        width: auto;
+        color: white;
+        font-size: large;
+    }
+    #Titulo {
+        text-align: right;
+        margin: 0px 5%;
+        color: white;
+    }
+    aside {
+        order: 2;
+        width: 100%;
+        background-color: rgb(7, 79, 107);
+        justify-content: center;
+        align-items: center;
+    }
+    #Anuncio {
+        margin-top: 20px;
+        background-color: rgb(6, 64, 87);
+        height: auto;
+        width: 100%;
+    }
+    footer {
+        width: 90%;
+        height: 150px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p {
+        margin: 20px;
+    }
+}
+
+
+
+
+@media (min-width: 800px) {
+    * {
+        padding: 0px;
+        margin: 0px auto;
+    }
+    body {
+        background-color: aliceblue;
+    }
+    header {
+        background-color: black;
+        display: flex;
+        height: 200px;
+        width: 1100px;
+    }
+    #logo {
+        background-color: black;
+        color: white;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logo1 {
+        display: none;
+    }
+    #logo2 {
+        width: 100%;
+        display: block;
+    }
+    #idMenu {
+        display: none;
+    }
+    #menu {
+        background-color: black;
+        color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ul {
+        width: 98%;
+        display: flex;
+    }
+    ul li {
+        list-style: none;
+        margin: 10px;
+    }
+    hr {
+        display: none;
+    }
+    main {
+        width: 1100px;
+        height: 810px;
+        display: flex;
+    }
+    .noVisibleMain {
+        display: none;
+    }
+    .siVisibleMain {
+    display: flex;
+    }
+    aside {
+        width: 300px;
+        background-color: rgb(7, 79, 107);
+        justify-content: center;
+        align-items: center;
+    }
+    #Anuncio {
+        margin-top: 20px;
+        background-color: rgb(6, 64, 87);
+        height: 100px;
+        width: auto;
+        padding: 11%;
+    }
+    article {
+        width: 800px;
+        background-color: rgb(10, 97, 131);
+    }
+    #Recuadro {
+        margin: 15px;
+        height: 250px;
+        display: flex;
+        border: solid 1px #000;
+        background-color: rgb(5, 52, 71);
+    }
+    #Foto {
+        border: solid 1px #000;
+        background-color: rgb(13, 129, 175);
+        width: 250px;
+        height: 250px;
+    }
+    #Contenido {
+        display: block;
+        margin: 20px;
+        width: 520px;
+        color: white;
+    }
+    #Titulo {
+        text-align: right;
+        margin: 0px 20px;
+        color: white;
+    }
+    .img {
+        width: 250px;
+    }
+    footer {
+        width: 1100px;
+        height: 50px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p {
+        margin: 20px;
+    }
+}
